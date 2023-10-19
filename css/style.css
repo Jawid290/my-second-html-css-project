@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(89, 121, 223);
+}
+
+#div1{
+    background-color: white;
+    
+    height:200px;
+    width: 200px;
+   padding: 30px;
+margin-top: 7%;
+}
+#div2{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    margin-top: 7%;
+}
+
+div{
+    float: left;
+    margin: 7px;
+
+}
+#signUp1{
+
+    background-color: rgb(255, 119, 158);
+
+    color:white;
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+}
+
+#signUp1:hover {
+    opacity: 0.3;
+    background-color:  rgb(168, 29, 68);
+}
+
+
+
+
+#signUp2{
+
+    background-color: rgb(255, 119, 158);
+    color:white;
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+
+}
+#signUp2:active {
+    background-color: blueviolet;
+    opacity: 0.2;
+    transition: 0.15s;
+}
+
+span{
+    margin-left: 25px;
+}
